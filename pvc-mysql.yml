@@ -3,7 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: mysql-persistent-storage
   labels:
-    app: wordpress
+    app: mysql
 spec:
   accessModes:
     - ReadWriteMany
