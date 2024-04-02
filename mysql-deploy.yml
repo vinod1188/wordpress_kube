@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: wordpress-mysql   # will be used as a value in
   labels:                 # WORDPRESS_DB_HOST in wordpress-deploy.yml
-    app: wordpress
+    app: mysql
 spec:
   ports:
     - port: 3306
